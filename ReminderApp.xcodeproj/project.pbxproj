@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B8A39138A634FC2B098A7D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B6DDD4F5447228F43AF82 /* AppDelegate.swift */; };
+		E1EA5CC82B874DF997DF0668 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D27BF9E698498AA68789A8 /* SceneDelegate.swift */; };
+		E14DACDAB8B7403186101172 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29693ED273624A62B979B28D /* ViewController.swift */; };
+		B76664D2FAB24E5F81C79768 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5D0B08E9044E089DDED569 /* NotificationManager.swift */; };
+		05109B3F03A846E5AA72D3D0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 964BC3CD59094FD3B75E1BAD /* Info.plist */; };
+		F208BF3D172746CDBE590712 /* all_i_want_christmas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA474BC75D4CE1BE52EB35 /* all_i_want_christmas.mp3 */; };
+		22B410536825424E891B19BD /* ave_maria.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 198EA6BE2B0B41B6B2F93738 /* ave_maria.mp3 */; };
+		FACD47FFD54C49598653A306 /* carol_of_bells.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E17441ADEDD347F5B391439F /* carol_of_bells.mp3 */; };
+		194D3FA81CF64D2A9C9F3FE0 /* christmas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 067BD80E1DA0414A800405C1 /* christmas.mp3 */; };
+		201D4903072549C5AB7F708C /* christmas_bells.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 59FC03FB56B74C588FB98B4B /* christmas_bells.mp3 */; };
+		7F7C29C5342B4928A8335073 /* feliz_navidad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 82423618FFE64D72ABF8657A /* feliz_navidad.mp3 */; };
+		DA735610BD87416CA1A10710 /* frozen_in_time.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5B45125DD4E746A38BE20AA0 /* frozen_in_time.mp3 */; };
+		1DDA3837418B4E74B89810B1 /* heart_full_of_snow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F3A3442A1A14E988D9B99D4 /* heart_full_of_snow.mp3 */; };
+		E263F8BBEAD34216A5E48FE9 /* merry_christmas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 276AABA4A5394ED2A2E44DA4 /* merry_christmas.mp3 */; };
+		F8A7A1F582644ECBB1408369 /* newyear_magic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 77CEC62A27284DA0B7E64CF9 /* newyear_magic.mp3 */; };
+		F0D9BF96364C48879ABF9A8F /* oh_christmas_tree.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7760BF4D33954D5695D63F7E /* oh_christmas_tree.mp3 */; };
+		5F9AA7BDE9FA4D93A180D5C2 /* snow_over_leningrad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 09C6BBFEFFE542D491759D74 /* snow_over_leningrad.mp3 */; };
+		0A7FB0E97B9E43BEB82E2CFB /* sugar_plum_fairy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83982692E6514BA5BC48590D /* sugar_plum_fairy.mp3 */; };
+		A382E6BA47DD4FF9B9C3999B /* waltz_of_flowers.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0322D67EB74844C581DADD77 /* waltz_of_flowers.mp3 */; };
+		CD7A21AAF453434FA7FDD8B9 /* we_wish_merry_christmas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 778CAC6B95EE46C3A182294C /* we_wish_merry_christmas.mp3 */; };
+		22918239FB0F48BAAD180C7E /* winter_melody.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5E26473C3FC94163A22FC27F /* winter_melody.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C45B6DDD4F5447228F43AF82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		35D27BF9E698498AA68789A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		29693ED273624A62B979B28D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF5D0B08E9044E089DDED569 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		964BC3CD59094FD3B75E1BAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C35AE5F39FC341D5B625FA0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61D399389CBB48BF90B5B223 /* ReminderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReminderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BEA474BC75D4CE1BE52EB35 /* all_i_want_christmas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "all_i_want_christmas.mp3"; sourceTree = "<group>"; };
+		198EA6BE2B0B41B6B2F93738 /* ave_maria.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ave_maria.mp3"; sourceTree = "<group>"; };
+		E17441ADEDD347F5B391439F /* carol_of_bells.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "carol_of_bells.mp3"; sourceTree = "<group>"; };
+		067BD80E1DA0414A800405C1 /* christmas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "christmas.mp3"; sourceTree = "<group>"; };
+		59FC03FB56B74C588FB98B4B /* christmas_bells.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "christmas_bells.mp3"; sourceTree = "<group>"; };
+		82423618FFE64D72ABF8657A /* feliz_navidad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "feliz_navidad.mp3"; sourceTree = "<group>"; };
+		5B45125DD4E746A38BE20AA0 /* frozen_in_time.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "frozen_in_time.mp3"; sourceTree = "<group>"; };
+		3F3A3442A1A14E988D9B99D4 /* heart_full_of_snow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "heart_full_of_snow.mp3"; sourceTree = "<group>"; };
+		276AABA4A5394ED2A2E44DA4 /* merry_christmas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "merry_christmas.mp3"; sourceTree = "<group>"; };
+		77CEC62A27284DA0B7E64CF9 /* newyear_magic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "newyear_magic.mp3"; sourceTree = "<group>"; };
+		7760BF4D33954D5695D63F7E /* oh_christmas_tree.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "oh_christmas_tree.mp3"; sourceTree = "<group>"; };
+		09C6BBFEFFE542D491759D74 /* snow_over_leningrad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "snow_over_leningrad.mp3"; sourceTree = "<group>"; };
+		83982692E6514BA5BC48590D /* sugar_plum_fairy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sugar_plum_fairy.mp3"; sourceTree = "<group>"; };
+		0322D67EB74844C581DADD77 /* waltz_of_flowers.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "waltz_of_flowers.mp3"; sourceTree = "<group>"; };
+		778CAC6B95EE46C3A182294C /* we_wish_merry_christmas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "we_wish_merry_christmas.mp3"; sourceTree = "<group>"; };
+		5E26473C3FC94163A22FC27F /* winter_melody.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "winter_melody.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		646CF6120C7545F194C6EFD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACC3C179A55A44E6AF7295AB = {
+			isa = PBXGroup;
+			children = (
+				8A2A6FEAC35442F592794A8E /* ReminderApp */,
+				6A5312E513F24B969DD392C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A2A6FEAC35442F592794A8E /* ReminderApp */ = {
+			isa = PBXGroup;
+			children = (
+				C45B6DDD4F5447228F43AF82 /* AppDelegate.swift */,
+				35D27BF9E698498AA68789A8 /* SceneDelegate.swift */,
+				29693ED273624A62B979B28D /* ViewController.swift */,
+				AF5D0B08E9044E089DDED569 /* NotificationManager.swift */,
+				964BC3CD59094FD3B75E1BAD /* Info.plist */,
+				C35AE5F39FC341D5B625FA0B /* Assets.xcassets */,
+				4BEA474BC75D4CE1BE52EB35 /* all_i_want_christmas.mp3 */,
+				198EA6BE2B0B41B6B2F93738 /* ave_maria.mp3 */,
+				E17441ADEDD347F5B391439F /* carol_of_bells.mp3 */,
+				067BD80E1DA0414A800405C1 /* christmas.mp3 */,
+				59FC03FB56B74C588FB98B4B /* christmas_bells.mp3 */,
+				82423618FFE64D72ABF8657A /* feliz_navidad.mp3 */,
+				5B45125DD4E746A38BE20AA0 /* frozen_in_time.mp3 */,
+				3F3A3442A1A14E988D9B99D4 /* heart_full_of_snow.mp3 */,
+				276AABA4A5394ED2A2E44DA4 /* merry_christmas.mp3 */,
+				77CEC62A27284DA0B7E64CF9 /* newyear_magic.mp3 */,
+				7760BF4D33954D5695D63F7E /* oh_christmas_tree.mp3 */,
+				09C6BBFEFFE542D491759D74 /* snow_over_leningrad.mp3 */,
+				83982692E6514BA5BC48590D /* sugar_plum_fairy.mp3 */,
+				0322D67EB74844C581DADD77 /* waltz_of_flowers.mp3 */,
+				778CAC6B95EE46C3A182294C /* we_wish_merry_christmas.mp3 */,
+				5E26473C3FC94163A22FC27F /* winter_melody.mp3 */,
+			);
+			path = ReminderApp;
+			sourceTree = "<group>";
+		};
+		6A5312E513F24B969DD392C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61D399389CBB48BF90B5B223 /* ReminderApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61D399389CBB48BF90B5B223 /* ReminderApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D3DF479998746539ACBEE6C /* Build configuration list for PBXNativeTarget "ReminderApp" */;
+			buildPhases = (
+				BD395F00E73A42AE841119E0 /* Sources */,
+				646CF6120C7545F194C6EFD0 /* Frameworks */,
+				29B2B61F2EEC4BFDBF2D62B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReminderApp;
+			productName = ReminderApp;
+			productReference = 61D399389CBB48BF90B5B223 /* ReminderApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		845263F034024B13B1AD9A40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					61D399389CBB48BF90B5B223 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = C507F87B718F46A8B1CD686B /* Build configuration list for PBXProject "ReminderApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACC3C179A55A44E6AF7295AB;
+			productRefGroup = 6A5312E513F24B969DD392C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61D399389CBB48BF90B5B223 /* ReminderApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29B2B61F2EEC4BFDBF2D62B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05109B3F03A846E5AA72D3D0 /* Info.plist in Resources */,
+				F208BF3D172746CDBE590712 /* all_i_want_christmas.mp3 in Resources */,
+				22B410536825424E891B19BD /* ave_maria.mp3 in Resources */,
+				FACD47FFD54C49598653A306 /* carol_of_bells.mp3 in Resources */,
+				194D3FA81CF64D2A9C9F3FE0 /* christmas.mp3 in Resources */,
+				201D4903072549C5AB7F708C /* christmas_bells.mp3 in Resources */,
+				7F7C29C5342B4928A8335073 /* feliz_navidad.mp3 in Resources */,
+				DA735610BD87416CA1A10710 /* frozen_in_time.mp3 in Resources */,
+				1DDA3837418B4E74B89810B1 /* heart_full_of_snow.mp3 in Resources */,
+				E263F8BBEAD34216A5E48FE9 /* merry_christmas.mp3 in Resources */,
+				F8A7A1F582644ECBB1408369 /* newyear_magic.mp3 in Resources */,
+				F0D9BF96364C48879ABF9A8F /* oh_christmas_tree.mp3 in Resources */,
+				5F9AA7BDE9FA4D93A180D5C2 /* snow_over_leningrad.mp3 in Resources */,
+				0A7FB0E97B9E43BEB82E2CFB /* sugar_plum_fairy.mp3 in Resources */,
+				A382E6BA47DD4FF9B9C3999B /* waltz_of_flowers.mp3 in Resources */,
+				CD7A21AAF453434FA7FDD8B9 /* we_wish_merry_christmas.mp3 in Resources */,
+				22918239FB0F48BAAD180C7E /* winter_melody.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD395F00E73A42AE841119E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B8A39138A634FC2B098A7D7 /* AppDelegate.swift in Sources */,
+				E1EA5CC82B874DF997DF0668 /* SceneDelegate.swift in Sources */,
+				E14DACDAB8B7403186101172 /* ViewController.swift in Sources */,
+				B76664D2FAB24E5F81C79768 /* NotificationManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FDC914446DC54D989BC7EE89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7C1417F5920247F9B4721CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5472ED7CCB54F74ABE709F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ReminderApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reminderapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		688244BECDC54C18922CE698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ReminderApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reminderapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D3DF479998746539ACBEE6C /* Build configuration list for PBXNativeTarget "ReminderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C24669395AE41EEB2E8DA01 /* Debug */,
+				BC142A5968BE437EAC749102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AE9384505844A828AA6CAFC /* Build configuration list for PBXProject "ReminderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDC914446DC54D989BC7EE89 /* Debug */,
+				7C1417F5920247F9B4721CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 845263F034024B13B1AD9A40 /* Project object */;
+}
