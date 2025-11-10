@@ -147,7 +147,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C507F87B718F46A8B1CD686B /* Build configuration list for PBXProject "ReminderApp" */;
+			   buildConfigurationList = 7AE9384505844A828AA6CAFC /* Build configuration list for PBXProject "ReminderApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -411,5 +411,6 @@
 	};
 	rootObject = 845263F034024B13B1AD9A40 /* Project object */;
 }
+
 
 
