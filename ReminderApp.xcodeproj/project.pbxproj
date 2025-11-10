@@ -392,8 +392,8 @@
 		8D3DF479998746539ACBEE6C /* Build configuration list for PBXNativeTarget "ReminderApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2C24669395AE41EEB2E8DA01 /* Debug */,
-				BC142A5968BE437EAC749102 /* Release */,
+   C5472ED7CCB54F74ABE709F8 /* Debug */,
+   688244BECDC54C18922CE698 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -411,3 +411,4 @@
 	};
 	rootObject = 845263F034024B13B1AD9A40 /* Project object */;
 }
+
