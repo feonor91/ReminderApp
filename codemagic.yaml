@@ -13,7 +13,6 @@ workflows:
         script: |
           xcode-project build-ipa \
             --project "$XCODE_WORKSPACE" \
-            --scheme "$XCODE_SCHEME" \
-            --export-method development
+            --scheme "$XCODE_SCHEME"
     artifacts:
       - build/ios/ipa/*.ipa
