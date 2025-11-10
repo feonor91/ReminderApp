@@ -115,7 +115,7 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		61D399389CBB48BF90B5B223 /* ReminderApp */ = {
+		C3A7709116F44F959A2F9C5C /* ReminderApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D3DF479998746539ACBEE6C /* Build configuration list for PBXNativeTarget "ReminderApp" */;
 			buildPhases = (
@@ -142,7 +142,7 @@
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					61D399389CBB48BF90B5B223 = {
+					C3A7709116F44F959A2F9C5C = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
@@ -160,7 +160,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				61D399389CBB48BF90B5B223 /* ReminderApp */,
+				C3A7709116F44F959A2F9C5C /* ReminderApp */,
 			);
 		};
 /* End PBXProject section */
@@ -411,4 +411,5 @@
 	};
 	rootObject = 845263F034024B13B1AD9A40 /* Project object */;
 }
+
 
